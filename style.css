@@ -7,7 +7,17 @@
   --font: Josefin Sans;
 }
 body {
-  background-color: var(--bg-color);
+  background-color: vafooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+  }
+  r(--bg-color);
   color: var(--primary-color);
   font-family: var(--font);
   height: 100vh;
