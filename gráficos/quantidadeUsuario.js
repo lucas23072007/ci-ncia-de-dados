@@ -1,5 +1,5 @@
 async function quantidadeUsuarios() {
-    const url = 'https://github.com/silviosnjr/CienciaDeDados-CriandoGraficosDinamicosComJavaScript/blob/Aula01/transporte/transporte-dados-globais.json '
+    const url = ' '
     const res = await fetch(url)
     const dados = await res.json()
     const pessoas_mundo = Object.keys(dados)
